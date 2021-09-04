@@ -6,6 +6,7 @@
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
   "license": "ISC",
   "scripts": {
+    "build": "npm run dev:clean",
     "start": "npm run dev",
     "dev": "npm run docker:start",
     "dev:clean": "npm run docker:build",

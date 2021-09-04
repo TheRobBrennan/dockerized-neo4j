@@ -24,3 +24,9 @@ Once you have started your Neo4j instance, you can access the Neo4j Browser at [
 
 - Username: `neo4j`
 - Password: `letmein`
+
+![neo4j/v4.x.x/__screenshots__/neo4j-browser-login.png](neo4j/v4.x.x/__screenshots__/neo4j-browser-login.png)
+
+Once you've logged in, you are free to explore your Dockerized Neo4j instance.
+
+![neo4j/v4.x.x/__screenshots__/neo4j-browser-example.png](neo4j/v4.x.x/__screenshots__/neo4j-browser-example.png)

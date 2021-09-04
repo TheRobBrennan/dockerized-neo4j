@@ -1,0 +1,16 @@
+{
+  "name": "dockerized-neo4j",
+  "version": "0.0.0",
+  "description": "This project is a simple example of how to work with [Neo4j](https://neo4j.com) within a [Docker](https://www.docker.com) container.",
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/dockerized-neo4j.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/dockerized-neo4j/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/dockerized-neo4j#readme"
+}

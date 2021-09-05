@@ -30,3 +30,18 @@ Once you have started your Neo4j instance, you can access the Neo4j Browser at [
 Once you've logged in, you are free to explore your Dockerized Neo4j instance.
 
 ![neo4j/v4.x.x/__screenshots__/neo4j-browser-example.png](neo4j/v4.x.x/__screenshots__/neo4j-browser-example.png)
+
+### OPTIONAL: Use Cypher text file(s) to seed your database
+
+If you would like to have your database load a pre-defined series of Cypher commands - such as the example at `neo4j/v4.x.x/__seed__/db.cypher` - simply uncomment the following in `neo4j/v4.x.x/Dockerfile`:
+
+```sh
+# neo4j/v4.x.x/Dockerfile
+
+...
+# COPY ./__seed__/*.cypher /var/lib/neo4j/import/
+...
+
+```
+
+This will ensure that your Cypher file(s) are copied and then processed by the `neo4j/v4.x.x/wrapper.sh` script when building your Neo4j instance.
